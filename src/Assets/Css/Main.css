@@ -1,0 +1,7 @@
+.mainWrap{
+    display: flex;
+    min-height: 100vh;
+}
+.contentSide{
+    width: calc(100% - 290px);
+}

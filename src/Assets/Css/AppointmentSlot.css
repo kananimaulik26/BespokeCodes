@@ -1,0 +1,89 @@
+.appointmentSlotTab ul{
+    padding: 20px 16px 0 16px;
+    background-color: #FAFBFD;
+}
+.appointmentSlotTab ul .nav-item .nav-link{
+    color: #2684FF;
+}
+.appointmentSlotTab ul .nav-item .nav-link.active{
+    color: #2A2A2A;
+}
+.appointmentSlotTab .tab-content{
+    padding: 0 16px;
+}
+.createSlot select{
+    min-width: 60px;
+    padding: 12px 6px;
+}
+.createSlot select,
+.createSlot input{
+    border: 1px solid #D4D4D4;
+    background-color: #fff;
+    padding: 12px;
+    outline: none;
+    border-radius: 4px;
+    max-width: 260px;
+    width: 100%;
+}
+.createSlot h6{
+    font-size: 12px;
+    color: #2A2A2A;
+    text-transform: uppercase;
+}
+.createSlot p{
+    color: #AAAAAA;
+    font-size: 14px;
+    min-height: 42px;
+}
+.createSlot .selectTime{
+    display: flex;
+    gap: 8px;
+}
+.createSlot .selectTime label{
+    font-size: 12px;
+    color: #2A2A2A;
+    display: block;
+}
+.createSlot .selectTime p{
+    margin-bottom: 0;
+}
+.createSlot .selectTime b{
+    font-size: 26px;
+    color: #AAAAAA;
+    margin-top: 20px;
+}
+.createSlotBtn .btn:first-child{
+    color: #B3B3B3;
+    border: 1px solid #B3B3B3;
+}
+.createSlotBtn .btn:last-child{
+    border: 1px solid #23CFFD;
+    background-color: #23CFFD;
+    color: #fff;
+}
+.react-calendar .react-calendar__tile--active{
+    background-color: #addeff;
+    border-radius: 50%;
+ }
+ .react-calendar .react-calendar__month-view__days__day--weekend{
+    color: #000;
+ }
+ .react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+    color: #77bbe9;
+    text-transform: capitalize;
+ }
+@media (max-width: 991px) {
+    .createSlot{
+        gap: 20px;
+    }
+    .createSlot p{
+        min-height: auto;
+    }
+}
+@media (max-width: 575px) {
+    .appointmentSlotTab ul .nav-item .nav-link{
+        font-size: 13px;
+        padding: .5rem;
+    }
+}

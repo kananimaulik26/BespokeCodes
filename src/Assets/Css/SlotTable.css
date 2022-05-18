@@ -1,0 +1,64 @@
+.slotTableWrap .slotTableHeader{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+.searchForm{
+    position: relative;
+    width: 100%;
+}
+.searchForm img{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.searchForm input{
+    padding: 8px 40px 8px 8px;
+    border: 1px solid #D4D4D4;
+    color: #D4D4D4;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+.searchForm input::placeholder{
+    color: #D4D4D4;
+}
+.slotTableWrap .slotTableHeader input{
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px;
+}
+.slotTableWrap .slotTableHeader button{
+    background-color: #24DD85;
+    color: #fff;
+}
+.slotTableWrap .table thead{
+    box-shadow: 0 4px 4px 0 #1d1d1d0f;
+}
+.slotTableWrap .table tbody{
+    border-top: 0;
+}
+.slotTableWrap .table-hover>tbody>tr:hover>*{
+    background-color: #F3F9FE;
+}
+.slotTableWrap .table>thead>tr>*{
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2A2A2A;
+}
+.slotTableWrap .table>tbody>tr>*{
+    padding: 12px 8px;
+    font-size: 14px;
+}
+.slotTableWrap .table>tbody>tr>td:first-child{
+    text-align: center;
+    padding: 12px 24px 12px 8px;
+}
+.slotTableWrap .table>thead>tr>th:last-child,
+.slotTableWrap .table>tbody>tr>td:last-child{
+    text-align: end;
+    padding: 12px 24px 12px 8px;
+}

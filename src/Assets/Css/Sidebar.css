@@ -1,0 +1,62 @@
+.sidebarWrap{
+    width: 290px;
+    background-color: #F3F9FE;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.brandSection{
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+.brandSection img{
+    max-width: 152px;
+}
+.menuItem{
+    padding: 16px 0;
+}
+.menuItem ul{
+    padding: 0;
+    margin: 0;
+}
+.menuItem ul li{
+    list-style: none;
+}
+.menuItem ul li a{
+    color: #09477D;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    padding: 8px 1.25rem;
+}
+.menuItem ul .accordion-body{
+    padding: 0;
+}
+.menuItem ul .accordion-item{
+    background-color: transparent;
+    border: 0;
+}
+.menuItem ul img{
+    width: 20px;
+}
+.menuItem ul .accordion-button{
+    color: #09477D;
+    box-shadow: none;
+    background-color: transparent;
+    gap: 12px;
+}
+.menuItem ul .accordion-button:focus,
+.menuItem ul .accordion-button:hover{    
+    background-color: transparent;
+    color: #09477D;
+    box-shadow: none;
+}
+@media (max-width: 991px){
+    .brandSection{
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+}
